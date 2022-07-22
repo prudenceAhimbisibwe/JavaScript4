@@ -36,7 +36,7 @@ class Mkulima {
             product.name=newName
             product.farmer=newPrice
     }
-    this.getProducta=function(id){
+    this.getProduct=function(id){
       console.log(this.products.find(product=>product.farmId===id))
      }
   
@@ -55,11 +55,11 @@ class Mkulima {
   }
   
   let MkulimaPlatform= new Mkulima()
-  MkulimaPlatform.addFarm("300","Grapes farm","prudence","0788672078","Fortportal,Kampala")
-  MkulimaPlatform.addFarm("350","wheat farm","Neverce","07867892098","kampala,Mukono")
+  MkulimaPlatform.addFarm("300","Grapes farm","Ahimbisibwe prudence","0788672078","Fortportal,Kampala")
+  MkulimaPlatform.addFarm("350","wheat farm","Kansiime Neverce","07867892098","kampala,Mukono")
   
   
-  MkulimaPlatform.updateFarm("400","250","maize farm","Veronica","0737823025","Kibuli")
+  MkulimaPlatform.updateFarm("400","250","maize farm","Alinaitwe Veronica","0737823025","Kibuli")
   
   console.log(MkulimaPlatform.farms)
   
